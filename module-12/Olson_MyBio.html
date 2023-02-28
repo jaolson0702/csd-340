@@ -13,7 +13,7 @@
   <body>
     <header>
       <h1>Jared Olson - MyBio</h1>
-      <img src="images/portrait.png" />
+      <img src="images/portrait.png" alt="portrait" />
     </header>
     <h1>Hobbies</h1>
     <div id="hobbies">
@@ -21,7 +21,7 @@
         <div class="card-title">Object-Oriented Programming</div>
         <div class="card-content">
           <p>Coding in object-oriented programming languages, such as C#</p>
-          <img class="card-image" src="images/csharp.jpg" />
+          <img class="card-image" src="images/csharp.jpg" alt="C# code" />
           <p>
             I enjoy coding because I like organizing information using logic and
             performing calculations with data.
@@ -35,7 +35,7 @@
             Researching family history and finding common ancestors among
             relatives
           </p>
-          <img class="card-image" src="images/genealogy.jpg" />
+          <img class="card-image" src="images/genealogy.jpg" alt="genealogy" />
           <p>
             I enjoy researching my family's genealogy because I like to make
             connections between people and find ways to input and organize
@@ -47,7 +47,7 @@
         <div class="card-title">Writing Stories</div>
         <div class="card-content">
           <p>Working on stories surrounding my own life and others I know</p>
-          <img class="card-image" src="images/book.jpg" />
+          <img class="card-image" src="images/book.jpg" alt="book" />
           <p>
             I am interested in writing stories because I have seen different
             ways stories have been organized and how the events have been put
@@ -124,13 +124,13 @@
       <h1>Contact</h1>
       <form action="mailto:jaolson.0702@gmail.com" method="post">
         <label for="firstname">First Name: *</label><br />
-        <input name="firstname" type="text" required /><br /><br />
+        <input id="firstname" type="text" required /><br /><br />
         <label for="lastname">Last Name: *</label><br />
-        <input name="lastname" type="text" required /><br /><br />
+        <input id="lastname" type="text" required /><br /><br />
         <label for="email">Email: *</label><br />
-        <input name="email" type="email" required /><br /><br />
+        <input id="email" type="email" required /><br /><br />
         <label for="message">Message: *</label><br />
-        <textarea name="message"></textarea><br /><br />
+        <textarea id="message"></textarea><br /><br />
         <input type="submit" value="Send Message" />
       </form>
     </div>
